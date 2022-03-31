@@ -1,0 +1,118 @@
+.profile {
+ 
+  width: 100%;
+  height: 450px;
+  font-family: cursive;
+  display: flex;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.profile .profileImage {
+    flex:50%;
+    justify-content: center;
+   
+    
+
+}
+
+.profile .profileImage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+ margin-top: 40px;
+  border-style: groove;
+  border-spacing: 0px;
+  border-radius: 100px;
+  background-position: left top;
+  background-repeat: repeat;
+ 
+  
+
+}
+
+
+.profile .profileTable {
+  text-decoration: none;
+  flex: 50%;
+  justify-content: flex-end;
+  font-family: cursive;
+  padding-right: 100px;
+  margin-top: 80px;
+  margin-right: 40px;
+  align-content: flex;
+  padding-top: 50px; 
+  border-radius: 100px;
+  background-image: url('../Project/grid-img.jpg');
+  border-style: groove;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 400px;
+  height: 300px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.profile .profileTable a{
+  text-decoration: none;
+}
+
+.profile .profileTable button{
+ 
+
+  font-family: cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+  .profile .profileTable h1{
+    font-size: 22px;
+  }
+  .profile .profileTable p{
+    font-size: 15px;
+  }
+  .profile .profileTable button{
+    font-size: 15px;
+    
+  }
+  
+
+}
+
+@media only screen and (max-width: 900px) {
+  .profile .profileTable h1{
+    font-size: 19px;
+  }
+  .profile .profileTable p{
+    font-size: 12px;
+  }
+  .profile .profileTable button{
+    font-size: 12px;
+    margin-left: 38%;
+  }
+ 
+}
+@media only screen and (max-width: 750px) {
+  .profile .profileTable button{
+    font-size: 12px;
+    margin-left: 30%;
+  }
+  
+}
+
+

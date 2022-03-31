@@ -1,0 +1,104 @@
+.edu {
+  width: 100%;
+  height: auto;
+  font-family: cursive;
+  justify-content: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#educationHeader {
+  text-decoration: none;
+
+  font-family: cursive;
+  display: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 6px black;
+  border-style: groove;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(30, 30, 73);
+}
+.eduBox {
+  font-family: cursive;
+  position: relative;
+  justify-content: center;
+  margin-top: 50px;
+ margin-left: 8%;
+
+  border-radius: 100px;
+  background-image: url("../Project/grid-img.jpg");
+  border-style: groove;
+  background-position: left top;
+  background-repeat: repeat;
+  
+  width: 85%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.edu .eduBox li {
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .edu .eduBox {
+        width: 80%;
+    }
+    
+    .edu .eduBox li {
+        font-size: 17px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+
+    .edu .eduBox {
+        width: 75%;
+    }
+    .edu .eduBox li {
+        font-size: 15px;
+    }
+  
+   
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

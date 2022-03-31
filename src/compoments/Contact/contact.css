@@ -1,0 +1,79 @@
+.contactPage {
+  height: auto;
+  font-family: cursive;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 40px;
+  margin-left: 8%;
+  border-radius: 100px;
+  background-image: url("../Project/grid-img.jpg");
+  border-style: groove;
+  background-position: left top;
+
+  width: 85%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+    
+
+.contactPage .contactData .hire {
+    font-size: 45px;
+    display: center;
+}
+.hireText {
+  font-size: 20px;
+  padding: none;
+}
+
+.contactPage .contactData img {
+  height: 35px;
+  width: auto;
+  margin-left: 30px;
+}
+
+.contactBox {
+  
+  width: 70%;
+  font-family: cursive;
+  
+  height: auto;
+  
+  color: #fff;
+  font-size: 15px;
+  padding-inline: 20px;
+  
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactBox input, textarea {
+  margin-bottom: 30px;
+  height: 40px;
+  width: auto;
+  border-radius: 10px;
+  font-family: cursive;
+}
+.contactBox textarea {
+  height: 80px;
+  width: auto;
+  font-family: cursive;
+}
+ .contactBox button{
+  font-family: cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000000;
+ }
+

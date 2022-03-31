@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.cell {
+  
+ 
+  font-family: cursive;
+  justify-self: flex;
+  margin-top: 40px;
+  flex:100%;
+ 
+  padding-top: 50px;
+  border-radius: 100px;
+  background-image: url("../Project/grid-img.jpg");
+  border-style: groove;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: auto;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cell .projectName p {
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 20px;
+  flex: 10%;
+  background: none;
+  border: none;
+  font-family: cursive;
+  display: center;
+
+  color: white;
+  text-shadow: 2px 2px 6px black;
+}
+.cell .projectSymbol {
+  flex: 70%;
+}
+
+.cell .projectSymbol img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  padding-bottom: 25px;
+}
+.cell .projectLink {
+  flex: 20%;
+}
+.cell .projectLink a {
+  text-decoration: none;
+}
+.cell .projectLink button {
+  font-family: cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    
+    .cell {
+        height: 350px;
+    }
+    .cell .projectName p {
+        font-size: 17px;
+    }
+    .cell .projectLink button {
+        font-size: 13px;
+    }
+
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .cell {
+        height: 320px;
+    }
+    .cell .projectName p {
+        font-size: 15px;
+    }
+    .cell .projectLink button {
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .cell {
+        height: 270px;
+    }
+    
+}
+  
+  
+  

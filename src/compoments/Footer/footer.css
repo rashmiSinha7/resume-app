@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 20px;
+    padding-top:10px;
+    background-color: rgb(30, 30, 73);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .footerImg {
+    flex: 50%;
+    justify-content: left;
+}
+.footer .footerCR {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    padding-right: 50px;
+  
+}
+
+.footer img {
+    height: 35px;
+    width: auto;
+    margin-left: 30px;
+    
+  }
+  .footer p {
+     color: beige;
+     text-shadow: 2px 2px 4px black;
+      font-size: 15px;
+      font-family: cursive;
+  }
