@@ -1,15 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { render } from "react-dom";
 import instaImg from "./instagram.png";
 import fbImg from "./facebook.png";
 import lnkdImg from "./linkedin.png";
+import emailjs from "emailjs-com";
 
 import "./contact.css";
 
 function Contact() {
+
+  let [emailValidationResult,setEmail]=useState("");
+
+  
+  function sendEmail(e) {
+    e.preventDefault();
+    console.log("hi");
+    emailjs
+      .sendForm(
+        "service_clf9vk9",
+        "template_ikzbfqz",
+        e.target,
+        "xVpqoGxI0NUNhhgR_"
+      )
+      .then((res) => {
+        if (res.text == "OK") alert("Email Sent Successfully!");
+      })
+      .catch((err) => console.log(err));
+    e.target.reset();
+  }
+
+  function emailValidation(e){
+
+    
+    if(e.target.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/))
+    {
+      console.log(e.target.value);
+    setEmail(emailValidationResult="Correct");
+    }
+    else{
+      setEmail(emailValidationResult="Input Correct Email!");
+     
+    }
+
+  }
+
   return (
-    <div className="contactPage" id= "contactMe"align="center">
-      
+    <div className="contactPage" id="contactMe" align="center">
       <div className="contactData">
         <h1 className="hire" align="center">
           Hire Me.
@@ -20,46 +56,52 @@ function Contact() {
         </p>
         <p className="hireText">
           Phone:
-          <strong> +919348339935</strong> or email: 
+          <strong> +919348339935</strong> or email:
           <strong>rashmi.sinha1st@gmail.com </strong>
           or LinkedIn: <strong>linkedin.com/in/rashmisinha7/ </strong> <br />
         </p>
-      
+
         <a href="https://www.instagram.com/rashmi_sinha7/" target="_blank">
           <img src={instaImg} alt="my insta handle"></img>
         </a>
         <a href="https://www.facebook.com/raarshmee" target="_blank">
-          <img
-            src={fbImg}
-            alt="my fb handle"
-           
-          ></img>
+          <img src={fbImg} alt="my fb handle"></img>
         </a>
         <a href="https://www.linkedin.com/in/rashmisinha7/" target="_blank">
           <img src={lnkdImg} alt="my linkedin handle"></img>
         </a>
-     
       </div>
-      <div className="contactBox" align="center">
-        <input type="text" className="contactName" placeholder="Your name *" />
-        <input
-          type="text"
-          className="contactEmail"
-          placeholder="Your Email *"
-        />
-        <input
-          type="text"
-          className="contactSubject"
-          placeholder="Write a Subject"
-        />
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Write Your message"
-        ></textarea>
-        <button className="contactButton" type="submit">
-          Submit
-        </button>
+      <div>
+        <form className="contactBox" align="center" onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            className="contactName"
+            placeholder="Your name *"
+          />
+          <input
+            name="user_email"
+            type="text"
+            className="contactEmail"
+            placeholder="Your Email *"
+            onChange={emailValidation}
+          />
+          <p >{emailValidationResult}</p>
+          <input
+            name="subject"
+            type="text"
+            className="contactSubject"
+            placeholder="Write a Subject"
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write Your message"
+          ></textarea>
+          <button type="submit" id="contactButton">
+            Submit
+          </button>
+        </form>
       </div>
     </div>
   );
