@@ -1,0 +1,76 @@
+.header2 {
+  
+    overflow: hidden;
+    position: sticky;
+  
+    top: 0;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    display: flex;
+    text-shadow: 2px 2px 4px black;
+    
+  
+    padding-bottom: 10px;
+    background-color: rgb(71, 71, 129);
+  }
+  
+  .header2 .rightSide {
+    flex: 100%;
+    display: flex;
+    justify-content: right;
+  
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  
+  .header2 .rightSide .links {
+    max-height: 80px;
+  }
+  
+  .header2 .rightSide .links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 50px;
+    text-shadow: 2px 2px 4px black;
+  }
+  .header2 .rightSide .links a:hover {
+    text-shadow: 2px 2px 4px white;
+  }
+  
+  .header2 .bottom h1 {
+    font-size: 45px;
+  }
+  
+  .header2 .bottom h2 {
+    font-size: 40px;
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .header2 .rightSide .links a {
+      font-size: 17px;
+    }
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .header2 .rightSide .links a {
+      font-size: 12px;
+    }
+  }
+  
+  .header2 .rightSide button {
+    display: none;
+    margin-left: 20px;
+  }
+  .header2 .rightSide #hidden {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .header2 {
+      display: none;
+    }
+  }
+  
