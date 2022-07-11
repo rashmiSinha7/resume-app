@@ -6,17 +6,22 @@ import Education from "./compoments/Education/Education";
 import "./App.css";
 import Contact from "./compoments/Contact/Contact";
 import Footer from "./compoments/Footer/Footer";
+import NavFloater from "./compoments/Nav/NavFloater";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <div>
+      <NavFloater/>
       <Profile />
       <Skills />
       <Projects />
       <Education />
       <Contact />
       <Footer />
+      </div>
+      
     </div>
   );
 }
