@@ -15,6 +15,9 @@
     
 
 }
+#lati, #longi{
+  visibility: hidden;
+}
 
 .profile .profileImage img{
   display: block;
