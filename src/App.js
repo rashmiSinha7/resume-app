@@ -11,6 +11,7 @@ import NavFloater from "./compoments/Nav/NavFloater";
 function App() {
   return (
     <div className="App">
+      
       <Header />
       <div>
       <NavFloater/>

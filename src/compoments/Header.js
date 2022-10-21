@@ -11,7 +11,7 @@ function Header() {
     <nav>
       <div className="header" >
         <div className="leftSide">
-          <p>Rashmi</p>
+          
         </div>
         <div className="bottom">
         <h1>Hello! <br/>I'm Kumari Rashmi Sinha</h1>
@@ -32,6 +32,25 @@ function Header() {
         </div>
         
       </div>
+      <div className="wrapper">
+        <div className="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          
+        </div>
+
+      </div>
+      
     </nav>
   );
 }

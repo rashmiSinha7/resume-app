@@ -51,7 +51,7 @@ function Profile() {
       <div className="profileTable" id="box">
         <h1 align="center">Profile Summary</h1>
         <p align="center">
-          IT Professional with 2.4 years of experience in front end development,
+          IT Professional with 3 years of experience in front end development,
           looking for a job opportunity in a competitive environment that will
           challenge me to push my boundaries and expand my knowledge in the
           field of computer science while allowing me to add value to the
