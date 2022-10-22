@@ -58,9 +58,9 @@ function Contact() {
           Phone:
           <strong> +919348339935</strong> or email:
           <strong>rashmi.sinha1st@gmail.com </strong>
-          or LinkedIn: <strong>linkedin.com/in/rashmisinha7/ </strong> <br />
+          or LinkedIn: <strong>linkedin.com/in/rashmisinha7/ </strong> 
         </p>
-
+        <br></br>
         <a href="https://www.instagram.com/rashmi_sinha7/" target="_blank">
           <img src={instaImg} alt="my insta handle"></img>
         </a>

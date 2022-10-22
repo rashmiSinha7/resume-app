@@ -1,5 +1,4 @@
 .header2 {
-  
   overflow: hidden;
   position: sticky;
 
@@ -9,10 +8,10 @@
   font-weight: bold;
   display: flex;
   text-shadow: 2px 2px 4px black;
-  
 
   padding-bottom: 10px;
-  background-color: rgb(71, 71, 129);
+  background-color: rgba(18, 92, 161, 0.6);
+  border: 10px rgba(255, 255, 255, 0.4);
 }
 
 .header2 .rightSide {
@@ -37,7 +36,9 @@
   text-shadow: 2px 2px 4px black;
 }
 .header2 .rightSide .links a:hover {
-  text-shadow: 2px 2px 4px white;
+  background-color:rgba(255, 255, 255, 0.6) ;
+  color: black;
+  font-weight:normal;
 }
 
 .header2 .bottom h1 {

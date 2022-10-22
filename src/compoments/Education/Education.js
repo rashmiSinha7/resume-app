@@ -17,7 +17,7 @@ function Education() {
         </ul>
       
       </div>
-      <hr></hr>
+      
     </div>
       
 

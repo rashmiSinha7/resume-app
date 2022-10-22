@@ -1,41 +1,35 @@
 .profile {
- 
   width: 100%;
   height: 450px;
   font-family: cursive;
+  font-weight: bold;
   display: flex;
-  color: aliceblue;
-  text-shadow: 2px 2px 4px #000000;
+  color: black;
+  text-shadow: 2px 2px 4px black;
 }
 
 .profile .profileImage {
-    flex:50%;
-    justify-content: center;
-   
-    
-
+  flex: 50%;
+  justify-content: center;
 }
-#lati, #longi{
+#lati,
+#longi {
   visibility: hidden;
 }
 
-.profile .profileImage img{
+.profile .profileImage img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
   height: auto;
- margin-top: 40px;
-  border-style: groove;
+  margin-top: 40px;
+  
   border-spacing: 0px;
-  border-radius: 100px;
+  border-radius: 10%;
   background-position: left top;
   background-repeat: repeat;
- 
-  
-
 }
-
 
 .profile .profileTable {
   text-decoration: none;
@@ -44,30 +38,25 @@
   font-family: cursive;
   padding-right: 100px;
   margin-top: 80px;
-  margin-right: 40px;
+  margin-right: 0;
   align-content: flex;
-  padding-top: 50px; 
-  border-radius: 100px;
-  background-image: url('../Project/grid-img.jpg');
-  border-style: groove;
+  padding-top: 50px;
+  /*border-radius: 50px;*/
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 10px rgba(255, 255, 255, 0.4);
   background-position: left top;
   background-repeat: repeat;
-  padding: 20px; 
+  padding: 20px;
   width: 400px;
-  height: 300px; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  height: 300px;
+  
 }
 
-.profile .profileTable a{
+.profile .profileTable a {
   text-decoration: none;
 }
 
-.profile .profileTable button{
- 
-
+.profile .profileTable button {
   font-family: cursive;
   display: block;
   margin-left: auto;
@@ -77,45 +66,38 @@
   font-size: 15px;
   padding: 7px 10px;
   border-radius: 10px;
-  text-shadow: 2px 2px 4px #000000;
+  border: none;
+  text-shadow: 2px 2px 4px white;
+  cursor: pointer;
 }
 
-
-
 @media only screen and (max-width: 1050px) {
-  .profile .profileTable h1{
+  .profile .profileTable h1 {
     font-size: 22px;
   }
-  .profile .profileTable p{
+  .profile .profileTable p {
     font-size: 15px;
   }
-  .profile .profileTable button{
+  .profile .profileTable button {
     font-size: 15px;
-    
   }
-  
-
 }
 
 @media only screen and (max-width: 900px) {
-  .profile .profileTable h1{
+  .profile .profileTable h1 {
     font-size: 19px;
   }
-  .profile .profileTable p{
+  .profile .profileTable p {
     font-size: 12px;
   }
-  .profile .profileTable button{
+  .profile .profileTable button {
     font-size: 12px;
     margin-left: 38%;
   }
- 
 }
 @media only screen and (max-width: 750px) {
-  .profile .profileTable button{
+  .profile .profileTable button {
     font-size: 12px;
     margin-left: 30%;
   }
-  
 }
-
-
