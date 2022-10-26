@@ -1,22 +1,29 @@
 .skill {
-    display: grid;
-    grid-template-columns: auto auto ;
- 
-    grid-gap: 10px;
-    justify-content: space-evenly;
-    padding:20px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 #skillHeader {
-    text-decoration: none;
-    
-    font-family: cursive;
-    display: center;
-    font-size: 30px;
-    color:white;
-    text-shadow: 2px 2px 6px black;
-    /*border-style: groove;
-    border-radius: 20px;*/
-    padding: 5px;
-    background-color: rgb(30, 30, 73);    
+  text-decoration: none;
 
+  font-family: cursive;
+  display: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 6px black;
+  /*border-style: groove;
+    border-radius: 20px;*/
+  padding: 5px;
+  background-color: rgb(30, 30, 73);
+}
+
+@media screen and (max-width: 600px) {
+  .skllList {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 }

@@ -24,7 +24,7 @@
   width: 60%;
   height: auto;
   margin-top: 40px;
-  
+
   border-spacing: 0px;
   border-radius: 10%;
   background-position: left top;
@@ -38,7 +38,8 @@
   font-family: cursive;
   padding-right: 100px;
   margin-top: 80px;
-  margin-right: 0;
+  margin-right: 5%;
+  margin-left: 0;
   align-content: flex;
   padding-top: 50px;
   /*border-radius: 50px;*/
@@ -49,7 +50,6 @@
   padding: 20px;
   width: 400px;
   height: 300px;
-  
 }
 
 .profile .profileTable a {
@@ -100,4 +100,5 @@
     font-size: 12px;
     margin-left: 30%;
   }
+  
 }
