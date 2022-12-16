@@ -79,6 +79,7 @@ function Contact() {
             className="contactName"
             placeholder="Your name *"
             style={{paddingLeft:"1.5%"}}
+            required
           />
           <input
             name="user_email"
@@ -87,20 +88,23 @@ function Contact() {
             placeholder="Your Email *"
             onChange={emailValidation}
             style={{paddingLeft:"1.5%"}}
+            required
           />
-          <p >{emailValidationResult}</p>
+          {emailValidationResult=="Correct"?null:<p >{emailValidationResult}</p>}
           <input
             name="subject"
             type="text"
             className="contactSubject"
             placeholder="Write a Subject"
             style={{paddingLeft:"1.5%"}}
+            required
           />
           <textarea
             name="message"
             id="message"
             placeholder="Write Your message"
-            style={{paddingLeft:"1.5%"}}
+            style={{paddingLeft:"1.5%", paddingTop:"1%"}}
+            required
           ></textarea>
           <button type="submit" id="contactButton">
             Submit

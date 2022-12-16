@@ -34,7 +34,7 @@ function Profile() {
   function clickHandle(e) {
     e.preventDefault();
     console.log("hi");
-    window.open("https://drive.google.com/file/d/1RlB7Fz_a7GW5cxpWpmLiT5a3L7xPcejh/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1WnCtV-Y6SGuB4Njpn0OMJkUYJnEE-_SO/view?usp=sharing");
     emailjs.sendForm(
       "service_clf9vk9",
       "template_uqt10dn",
