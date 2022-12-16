@@ -56,6 +56,7 @@ body {
 
 .header .rightSide .links {
   max-height: 80px;
+  width: 70%;
 }
 
 .header .rightSide .links a {
