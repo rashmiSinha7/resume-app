@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume-app/static/css/main.b8443265.css",
-    "main.js": "/resume-app/static/js/main.6552b0c8.js",
+    "main.css": "/resume-app/static/css/main.7b810f3b.css",
+    "main.js": "/resume-app/static/js/main.74c37d7e.js",
     "static/js/787.ec610b0e.chunk.js": "/resume-app/static/js/787.ec610b0e.chunk.js",
     "static/media/profile_image.jpg": "/resume-app/static/media/profile_image.81e6ee06fc6d024c2494.jpg",
     "static/media/instagram.png": "/resume-app/static/media/instagram.e719d8b29f452a16302d.png",
@@ -14,12 +14,12 @@
     "static/media/javascript.png": "/resume-app/static/media/javascript.78206ba65e01c7d57080.png",
     "static/media/linkedin.png": "/resume-app/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/resume-app/index.html",
-    "main.b8443265.css.map": "/resume-app/static/css/main.b8443265.css.map",
-    "main.6552b0c8.js.map": "/resume-app/static/js/main.6552b0c8.js.map",
+    "main.7b810f3b.css.map": "/resume-app/static/css/main.7b810f3b.css.map",
+    "main.74c37d7e.js.map": "/resume-app/static/js/main.74c37d7e.js.map",
     "787.ec610b0e.chunk.js.map": "/resume-app/static/js/787.ec610b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8443265.css",
-    "static/js/main.6552b0c8.js"
+    "static/css/main.7b810f3b.css",
+    "static/js/main.74c37d7e.js"
   ]
 }
