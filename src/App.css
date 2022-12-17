@@ -184,6 +184,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+ .header{
+  height: 70vh;
+ }
+}
+
+
 .wrapper {
   position: absolute;
   top:0px;

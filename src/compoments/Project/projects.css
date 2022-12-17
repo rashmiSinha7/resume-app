@@ -1,10 +1,13 @@
 .projects{
-    display: grid;
-    grid-template-columns: auto auto ;
+   
  
-    grid-gap: 10px;
-    justify-content: space-evenly;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
 }
 
  #projectHeader {
@@ -22,3 +25,9 @@
 
 
 }
+@media screen and (max-width: 700px) {
+    
+    .projects {
+      flex-direction: column;
+    }
+  }

@@ -4,19 +4,20 @@
 
 .skillBox {
   font-family: cursive;
-  justify-self: flex;
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 100%;
+ margin: 5%;
+  padding-top: 2%;
+
  
-  margin-right: 0;
-  align-content: flex;
-  padding-top: 50px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.4);
   border: 10px rgba(255, 255, 255, 0.4);
   background-position: left top;
   background-repeat: repeat;
-  padding: 7%;
+  
   width: auto;
   height: 400px;
   
@@ -45,7 +46,9 @@
   color: black;
   font-weight: bold;
   text-shadow: 2px 2px 6px black;
-  margin-left: 10%;
+  margin-left: 20%;
+  align-self: flex-start;
+  margin-top: 5%;
 
 }
 .skillBox .skillImage img{

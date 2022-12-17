@@ -9,8 +9,8 @@ class SkillBox extends React.Component {
           <div className="skillName">
             <p align="center">{this.props.skillType}</p>
           </div>
-          <div className="skillSet">
-            <ul>
+          <div className="skillSet" >
+            <ul >
           <li>{this.props.skill1}</li>
           <li>{this.props.skill2}</li>
           <li>{this.props.skill3}</li>

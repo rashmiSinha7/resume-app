@@ -3,24 +3,21 @@
 }
 .cell {
   font-family: cursive;
-  justify-self: flex;
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 100%;
-
-  margin-right: 0;
-  align-content: flex;
-  padding-top: 50px;
+  margin: 5%;
+  padding-top: 3%;
+padding-bottom: 3%;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.4);
   border: 10px rgba(255, 255, 255, 0.4);
   background-position: left top;
   background-repeat: repeat;
-  padding: 20px;
+
   width: auto;
   height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .cell .projectName p {
   text-decoration: none;
@@ -66,7 +63,7 @@
   border-radius: 10px;
   border: none;
   text-shadow: 2px 2px 4px #000000;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1050px) {

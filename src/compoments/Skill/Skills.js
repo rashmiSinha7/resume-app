@@ -10,17 +10,19 @@ class Skill extends React.Component {
   
   render() {
     return (
-      <div>
+      <div >
    
         <p align="center " id="skillHeader">
           My Skills
         </p>
+        <div className= "skillContainer" >
         <div className="skill">
           <SkillBox className="skillList"
             skillType="Frameworks and Libraries"
             skill1="React Js"
             skill2="Redux, Hooks"
             skill3="Material UI" skillImg={reactImg}
+            
           />
           <SkillBox className="skillList"
           skillType="Languages"
@@ -28,6 +30,8 @@ class Skill extends React.Component {
           skill2="Core Java, collection FrameWork"
           skill3="HTML& CSS, JSX" skillImg={jsImg}
           />
+        </div>
+        <div className="skill">
           <SkillBox className="skillList"
            skillType="DataBases"
            skill1="MySQL"
@@ -40,6 +44,7 @@ class Skill extends React.Component {
            skill2="Jasmine"
            skill3="TestNG" skillImg={testImg}
           />
+        </div>
         </div>
       </div>
     );
