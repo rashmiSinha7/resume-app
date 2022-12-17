@@ -10,6 +10,7 @@
 .footer .footerImg {
     flex: 50%;
     justify-content: left;
+
 }
 .footer .footerCR {
     flex: 50%;
@@ -31,4 +32,23 @@
      text-shadow: 2px 2px 4px black;
       font-size: 15px;
       font-family: cursive;
+      align-self: center;
+      margin-left: 10%;
+  }
+
+  @media screen and (max-width: 400px) {
+    
+    .footer .footerImg {
+        flex: 50%;
+        justify-content: left;
+        flex-direction: row;
+
+        
+    }
+    .footer img {
+        height: 25px;
+        width: auto;
+        margin-left: 30px;
+        
+      }
   }
