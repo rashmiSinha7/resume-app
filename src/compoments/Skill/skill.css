@@ -1,10 +1,17 @@
 .skill {
-  display: grid;
-  grid-template-columns: auto auto;
-
-  grid-gap: 10px;
-  justify-content: space-evenly;
-  padding: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.skillContainer{
+  display:flex;
+  flex-direction: column;
+  padding:20px;
+}
+.skillList{
+  margin: 20px;
 }
 #skillHeader {
   text-decoration: none;
@@ -20,10 +27,14 @@
   background-color: rgb(30, 30, 73);
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 750px) {
   .skllList {
     width: 100%;
-    display: block;
+    
     text-align: center;
+  }
+  .skill {
+    flex-direction: column;
   }
 }

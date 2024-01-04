@@ -1,9 +1,10 @@
 .profile {
   width: 100%;
-  height: 350px;
+  height: fit-content;
   font-family: cursive;
   font-weight: bold;
   display: flex;
+  flex-direction: row;
   color: black;
   text-shadow: 2px 2px 4px black;
 }
@@ -23,8 +24,8 @@
   margin-right: auto;
   width: 60%;
   height: auto;
-  margin-top: 40px;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
   border-spacing: 0px;
   border-radius: 10%;
   background-position: left top;
@@ -61,6 +62,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  align-self: center;
   background-color: purple;
   color: white;
   font-size: 15px;
@@ -111,6 +113,7 @@
 @media only screen and (max-width: 750px) {
   .profile {
     height: 400px;
+    flex-direction: column;
   }
   .profile .profileTable{
     height: 220px;

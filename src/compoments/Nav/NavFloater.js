@@ -13,7 +13,7 @@ function NavFloater(){
           <a href="#profileSummary">About</a>
           <a href="#skillHeader">Skills</a>
           <a href="#projectHeader">Projects</a>
-          <a href="#educationHeader">Education</a>
+          {/* <a href="#educationHeader">Education</a> */}
           <a href="#contactMe">Contact Me</a>
         </div>
       
