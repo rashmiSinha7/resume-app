@@ -1,6 +1,6 @@
 .profile {
   width: 100%;
-  height: 450px;
+  height: 350px;
   font-family: cursive;
   font-weight: bold;
   display: flex;
@@ -38,8 +38,8 @@
   font-family: cursive;
   padding-right: 100px;
   margin-top: 80px;
-  margin-right: 5%;
-  margin-left: 0;
+  margin-right: 10%;
+  margin-left: 10%;
   align-content: flex;
   padding-top: 50px;
   /*border-radius: 50px;*/
@@ -49,7 +49,7 @@
   background-repeat: repeat;
   padding: 20px;
   width: 400px;
-  height: 300px;
+  height: 220px;
 }
 
 .profile .profileTable a {
@@ -72,6 +72,13 @@
 }
 
 @media only screen and (max-width: 1050px) {
+
+  .profile {
+    height: 370px;
+  }
+  .profile .profileTable{
+    height: 250px;
+  }
   .profile .profileTable h1 {
     font-size: 22px;
   }
@@ -84,6 +91,12 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .profile {
+    height: 390px;
+  }
+  .profile .profileTable{
+    height: 220px;
+  }
   .profile .profileTable h1 {
     font-size: 19px;
   }
@@ -96,6 +109,12 @@
   }
 }
 @media only screen and (max-width: 750px) {
+  .profile {
+    height: 400px;
+  }
+  .profile .profileTable{
+    height: 220px;
+  }
   .profile .profileTable button {
     font-size: 12px;
     margin-left: 30%;

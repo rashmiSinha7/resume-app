@@ -1,23 +1,15 @@
 import React, { useState } from "react";
 import "../App.css";
-
+import ProfileImg from "./Profile/profile_image.jpg";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
 function Header() {
   const [showLinks, setShowLinks] = useState(false);
 
-
   return (
     <nav>
-      <div className="header" >
-        <div className="leftSide">
-          
-        </div>
-        <div className="bottom">
-        <h1>Hello! <br/>I'm Kumari Rashmi Sinha</h1>
-        <h3>Front End Developer</h3>
-        </div>
-        <div className="rightSide">
+      <div className="header">
+        <div className="top">
           <div className="links" id={showLinks ? "hidden" : ""}>
             <a href="#profileSummary">About</a>
             <a href="#skillHeader">Skills</a>
@@ -30,7 +22,18 @@ function Header() {
             <ReorderIcon />
           </button>
         </div>
-        
+          <div className="bottom">
+            <div className="text-bottom">
+              <h1>
+                Hello! <br />
+                I'm Kumari Rashmi Sinha
+              </h1>
+              <h3>Front End Developer</h3>
+            </div>
+            <div className="img_bottom">
+              <img src={ProfileImg} alt="Rashmi's Image"></img>
+            </div> 
+          </div>
       </div>
       <div className="wrapper">
         <div className="box">
@@ -46,11 +49,8 @@ function Header() {
           <div></div>
           <div></div>
           <div></div>
-          
         </div>
-
       </div>
-      
     </nav>
   );
 }

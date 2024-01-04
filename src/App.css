@@ -38,15 +38,15 @@ body {
 
 .header {
   width: 100%;
-  height: 95vh;
+  height: 100%;
   font-family: cursive;
   display: flex;
-  text-shadow: 2px 2px 4px #000000;
-  
+  flex-direction: column;
+  text-shadow: 2px 2px 4px #ffffff;
 }
 
-.header .rightSide {
-  flex: 50%;
+.header .top {
+  height: fit-content;
   display: flex;
   justify-content: right;
   align-items: flex-start;
@@ -54,51 +54,40 @@ body {
   padding-right: 20px;
 }
 
-.header .rightSide .links {
+.header .top .links {
   max-height: 80px;
 }
 
-.header .rightSide .links a {
+.header .top .links a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   margin-left: 20px;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #ffffff;
 }
-.header .rightSide .links a:hover {
+.header .top .links a:hover {
   text-shadow: 6px 6px 8px black;
 }
 
-.header .leftSide {
-  flex: 10%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding-left: 25px;
-}
-
-.header .leftSide p {
-  text-decoration: none;
-  color: beige;
-  font-size: 35px;
-  text-shadow: 2px 2px 4px black;
-}
-
-.header .leftSide p:hover {
-  text-shadow: 2px 2px 4px yellow;
-  cursor: pointer;
-}
-
 .header .bottom {
-  flex: 40%;
   text-decoration: none;
   color: whitesmoke;
   text-shadow: 4px 4px 6px black;
-
-  padding-top: 150px;
-  justify-content: center;
-  align-items: center;
+  padding: 5% 10% 5%;
+  display: flex;
+  
   /*animation: myhighlight 8s infinite;*/
+}
+
+.text-bottom{
+  flex:70%;
+}
+.img_bottom{
+  width: 50% ;
+}
+.img_bottom img{
+  width: 90%;
+  border-radius: 10px;
 }
 /*@keyframes myhighlight {
   0% {
@@ -126,7 +115,7 @@ body {
 }
 
 @media only screen and (max-width: 1100px) {
-  .header .rightSide .links a {
+  .header .top .links a {
     font-size: 17px;
   }
   .header .leftSide p {
@@ -135,7 +124,7 @@ body {
 }
 
 @media only screen and (max-width: 950px) {
-  .header .rightSide .links a {
+  .header .top .links a {
     font-size: 12px;
   }
 
@@ -144,24 +133,31 @@ body {
   }
 }
 
-.header .rightSide button {
+.header .top button {
   display: none;
   margin-left: 20px;
 }
-.header .rightSide #hidden {
+.header .top #hidden {
   display: flex;
 }
 
 @media only screen and (max-width: 750px) {
-  .header .rightSide button {
+  .header .bottom{
+    flex-direction: column;
+  }
+
+  .header .bottom .img_bottom{
+    padding-top: 20%;
+  }
+  .header .top button {
     display: flex;
   }
 
-  .header .rightSide .links {
+  .header .top .links {
     display: none;
   }
 
-  .header .rightSide #hidden {
+  .header .top #hidden {
     position: absolute;
     left: 0px;
     top: 80px;
@@ -174,13 +170,10 @@ body {
     align-items: center;
   }
 
-  .header .rightSide #hidden a {
+  .header .top #hidden a {
     margin: 18px;
   }
 
-  .header .leftSide p {
-    font-size: 12px;
-  }
 }
 
 .wrapper {

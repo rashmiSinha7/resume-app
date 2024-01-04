@@ -20,7 +20,7 @@ function Contact() {
         "service_clf9vk9",
         "template_ikzbfqz",
         e.target,
-        "xVpqoGxI0NUNhhgR_"
+        "n9K4-DTMTio0S7b7e"
       )
       .then((res) => {
         if (res.text == "OK") alert("Email Sent Successfully!");
@@ -86,7 +86,7 @@ function Contact() {
             placeholder="Your Email *"
             onChange={emailValidation}
           />
-          <p >{emailValidationResult}</p>
+          {emailValidationResult == 'Correct' ?null : <p >{emailValidationResult}</p>}
           <input
             name="subject"
             type="text"
