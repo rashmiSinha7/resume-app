@@ -42,14 +42,14 @@ body {
   font-family: cursive;
   display: flex;
   flex-direction: column;
-  text-shadow: 2px 2px 4px #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .header .top {
   height: fit-content;
   display: flex;
   justify-content: right;
-  align-items: flex-start;
+  align-items: flex-end;
   padding-top: 10px;
   padding-right: 20px;
 }
@@ -57,6 +57,8 @@ body {
 .header .top .links {
   max-height: 80px;
   width: 70%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header .top .links a {
@@ -64,7 +66,7 @@ body {
   color: white;
   font-size: 20px;
   margin-left: 20px;
-  text-shadow: 2px 2px 4px #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
 .header .top .links a:hover {
   text-shadow: 6px 6px 8px black;
@@ -76,8 +78,7 @@ body {
   text-shadow: 4px 4px 6px black;
   padding: 5% 10% 5%;
   display: flex;
-  padding-top: 10%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   /*animation: myhighlight 8s infinite;*/
 }
@@ -180,9 +181,7 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
- .header{
-  height: 60vh;
- }
+ 
  body{
   overflow-x: hidden;
  }

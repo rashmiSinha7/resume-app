@@ -11,7 +11,7 @@ function Header() {
       <div className="header">
         <div className="top">
           <div className="links" id={showLinks ? "hidden" : ""}>
-            <a href="#profileSummary" style={{padding:"1%"}}>About</a>
+            <a href="#profileSummary">About</a>
             <a href="#skillHeader">Skills</a>
             <a href="#projectHeader">Projects</a>
             {/* <a href="#educationHeader">Education</a> */}
