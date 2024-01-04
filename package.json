@@ -1,7 +1,7 @@
 {
   "name": "resume-app",
-  "homepage": "https://rashmeesinha.github.io/resume-app",
-  "version": "0.1.0",
+  "homepage": "https://rashmisinha7.github.io/resume-app",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
