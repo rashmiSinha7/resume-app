@@ -1,13 +1,13 @@
 .projects{
-   
- 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     
 }
 .projectContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
  #projectHeader {
@@ -25,9 +25,23 @@
 
 
 }
-@media screen and (max-width: 750px) {
-    
-    .projects {
-      flex-direction: column;
-    }
-  }
+
+.carouselButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 2px 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 10px rgba(255, 255, 255, 0.4);
+}
+.carouselButton:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.disabledCarousalButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 2px 50px;
+  
+}

@@ -24,7 +24,7 @@ function Footer(){
         </a>
             </div>
            
-            <div className='footerCR'><p>© Copyright @ 2022 Rashmi Sinha.</p></div>
+            <div className='footerCR'><p>© Copyright @ 2023 Rashmi Sinha.</p></div>
             
         </div>
     );

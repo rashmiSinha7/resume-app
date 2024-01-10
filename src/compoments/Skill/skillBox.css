@@ -23,6 +23,10 @@
   
 }
 
+.skillBox:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .skillBox .skillName{
   flex: 40%;
 }

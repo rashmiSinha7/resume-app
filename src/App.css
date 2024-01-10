@@ -91,7 +91,8 @@ body {
 }
 .img_bottom img{
   width: 90%;
-  border-radius: 10px;
+  border-radius: 50%;
+  opacity: 0.4;
 }
 /*@keyframes myhighlight {
   0% {

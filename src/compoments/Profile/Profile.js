@@ -30,15 +30,14 @@ function Profile() {
 
   function clickHandle(e) {
     e.preventDefault();
-    console.log("hi");
     window.open(
-      "https://drive.google.com/file/d/1RlB7Fz_a7GW5cxpWpmLiT5a3L7xPcejh/view?usp=sharing"
+      "https://drive.google.com/file/d/1JqPCvNv8os9blN5I2EPjY00YQyddRK_s/view?usp=sharing"
     );
     emailjs.sendForm(
       "service_clf9vk9",
       "template_uqt10dn",
       e.target,
-      "xVpqoGxI0NUNhhgR_"
+      "n9K4-DTMTio0S7b7e"
     );
   }
 
