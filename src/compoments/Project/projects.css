@@ -1,8 +1,10 @@
 .projects{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     
 }
 .projectContainer{

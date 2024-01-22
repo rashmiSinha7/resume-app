@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./projects.css";
 import Cell from "./Cell";
 import portfolioImg from "./resume.png";
 import sudokuImg from "./sudoku.png";
 import todoImg from "./todo.png";
 import sortImg from "./sort.png";
-import ticTacToeImg from './tic-tac-toe.png'
+import ticTacToeImg from "./tic-tac-toe.png";
+import CatchMe from "./catch-me.png";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+
+import useScreenSize from "../../utils/useScreenSize";
 
 let projectData = [
   {
@@ -36,14 +39,23 @@ let projectData = [
   },
   {
     id: 4,
+    name: "Catch Me",
+    image: CatchMe,
+    url: "https://rashmisinha7.github.io/catch-me/",
+  },
+  {
+    id: 5,
     name: "Sorting Visualizer",
     image: sortImg,
     url: "https://rashmeesinha7.github.io/Sorting-App/",
   },
 ];
 function Projects(props) {
+  const screenSize = useScreenSize();
   const [LeftIndex, setLeftIndex] = useState(0);
-  const [RightIndex, setRightIndex] = useState(2);
+  const [RightIndex, setRightIndex] = useState(
+    screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0
+  );
 
   const onclickScrollUp = () => {
     if (LeftIndex > 0) {
@@ -58,9 +70,9 @@ function Projects(props) {
       setLeftIndex(LeftIndex + 1);
     }
   };
-
-  if (LeftIndex == 0) {
-  }
+  useEffect(()=>{
+    setRightIndex(screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0)
+  },[screenSize])
 
   return (
     <div>
