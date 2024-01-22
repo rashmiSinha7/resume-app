@@ -72,7 +72,7 @@ function Projects(props) {
   };
   useEffect(()=>{
     setRightIndex(screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0)
-  },[screenSize])
+  },[])
 
   return (
     <div>
