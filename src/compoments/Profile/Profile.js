@@ -31,7 +31,7 @@ function Profile() {
   function clickHandle(e) {
     e.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1JqPCvNv8os9blN5I2EPjY00YQyddRK_s/view?usp=sharing"
+      "https://drive.google.com/file/d/1s3kWdEhsx_yq-FjktOu6JmdPbfYIAYYu/view?usp=sharing"
     );
     emailjs.sendForm(
       "service_clf9vk9",

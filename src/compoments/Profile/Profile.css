@@ -41,6 +41,7 @@
   margin-top: 80px;
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 50px;
   align-content: flex;
   padding-top: 50px;
   /*border-radius: 50px;*/
@@ -117,6 +118,7 @@
   }
   .profile .profileTable{
     height: 220px;
+    width: auto;
   }
   .profile .profileTable button {
     font-size: 12px;

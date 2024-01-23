@@ -17,8 +17,9 @@ function App() {
       <div>
       <NavFloater/>
       <Profile />
-      <Skills />
       <Projects />
+      <Skills />
+      
       {/* <Education /> */}
       <Contact />
       <Footer />

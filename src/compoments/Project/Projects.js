@@ -58,6 +58,7 @@ function Projects(props) {
   );
 
   const onclickScrollUp = () => {
+    clearTimeout(scrollAuto);
     if (LeftIndex > 0) {
       setLeftIndex(LeftIndex - 1);
       setRightIndex(RightIndex - 1);
@@ -65,14 +66,33 @@ function Projects(props) {
   };
 
   const onclickScrollDown = () => {
+   clearTimeout(scrollAuto);
     if (RightIndex < projectData.length - 1) {
-      setRightIndex(RightIndex + 1);
       setLeftIndex(LeftIndex + 1);
+      setRightIndex(RightIndex + 1);
     }
   };
-  useEffect(()=>{
-    setRightIndex(screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0)
-  },[])
+  // useEffect(() => {
+  //   setRightIndex(screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0);
+  // }, []);
+
+  let scrollAuto;
+
+  useEffect(() => {
+    clearTimeout(scrollAuto);
+    if (screenSize !== "md") {
+      if (LeftIndex >= 0 && LeftIndex <= projectData.length - RightIndex) {
+        scrollAuto = setTimeout(() => {
+          onclickScrollDown();
+        }, 3000);
+      } else if(RightIndex === projectData.length - 1){
+        scrollAuto = setTimeout(() => {
+          setLeftIndex(0);
+          setRightIndex(screenSize === "lg" ? 2 : screenSize === "md" ? 1 : 0);
+        }, 3000);
+      }
+    }
+  }, [LeftIndex, RightIndex]);
 
   return (
     <div>
