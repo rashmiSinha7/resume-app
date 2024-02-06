@@ -7,17 +7,24 @@ import todoImg from "./todo.png";
 import sortImg from "./sort.png";
 import ticTacToeImg from "./tic-tac-toe.png";
 import CatchMe from "./catch-me.png";
+import WeatherApp from "./weather-app.png"
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 import useScreenSize from "../../utils/useScreenSize";
 
 let projectData = [
+  // {
+  //   id: 0,
+  //   name: "Portfolio",
+  //   image: portfolioImg,
+  //   url: "https://rashmisinha7.github.io/resume-app",
+  // },
   {
     id: 0,
-    name: "Portfolio",
-    image: portfolioImg,
-    url: "https://rashmisinha7.github.io/resume-app",
+    name: "Weather App",
+    image: WeatherApp,
+    url: "https://rashmisinha7.github.io/proactive-weather",
   },
   {
     id: 1,
