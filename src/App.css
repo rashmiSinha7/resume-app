@@ -2,10 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
-button :hover{
-  cursor:pointer;
-  background-color:rgba(199, 62, 204, 1);
+button :hover {
+  cursor: pointer;
+  background-color: rgba(199, 62, 204, 1);
 }
 body {
   margin: 0;
@@ -83,13 +84,13 @@ body {
   /*animation: myhighlight 8s infinite;*/
 }
 
-.text-bottom{
-  flex:70%;
+.text-bottom {
+  flex: 70%;
 }
-.img_bottom{
-  width: 50% ;
+.img_bottom {
+  width: 50%;
 }
-.img_bottom img{
+.img_bottom img {
   width: 90%;
   border-radius: 50%;
   opacity: 0.4;
@@ -147,11 +148,11 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
-  .header .bottom{
+  .header .bottom {
     flex-direction: column;
   }
 
-  .header .bottom .img_bottom{
+  .header .bottom .img_bottom {
     padding-top: 20%;
   }
   .header .top button {
@@ -178,21 +179,18 @@ body {
   .header .top #hidden a {
     margin: 18px;
   }
-
 }
 
 @media only screen and (max-width: 700px) {
- 
- body{
-  overflow-x: hidden;
- }
+  body {
+    overflow-x: hidden;
+  }
 }
-
 
 .wrapper {
   position: absolute;
-  top:0px;
-  left:0px;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -203,7 +201,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: transparent;
- 
+
   border: 10px solid rgba(255, 255, 255, 0.8);
 }
 .wrapper .box div:nth-child(1) {
