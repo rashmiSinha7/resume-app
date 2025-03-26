@@ -31,7 +31,7 @@ function Profile() {
   function clickHandle(e) {
     e.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1s3kWdEhsx_yq-FjktOu6JmdPbfYIAYYu/view?usp=sharing"
+      "https://drive.google.com/file/d/1pzH1maEJNInRs58ddGwTu53z5xdJyrZZ/view?usp=sharing"
     );
     emailjs.sendForm(
       "service_clf9vk9",
@@ -49,11 +49,14 @@ function Profile() {
       <div className="profileTable" id="box">
         <h1 align="center">Profile Summary</h1>
         <p align="center">
-          Passionate Frontend developer with 4+ years of experience with great
-          problem-solving skills. Well experienced in React js, Redux, node js,
-          Javascript, HTML and SASS, CSS. Worked in Micro frontend architecture
-          and monolithic Applications. Used versioning platform such as GitLab,
-          Bitbucket. Experienced in CICD tools and pipelines
+          Frontend developer with 5+ years of experience and a strong
+          problem-solving skillset currently working for Capgemini Engineering.
+          Expertise in React.js, Redux, TypeScript, JavaScript (ES6+), HTML,
+          CSS/SASS, and modern web frameworks. Specializes in developing
+          scalable and user-centric applications, prioritizing performance,
+          accessibility, and security. Solid understanding of Micro Frontend
+          architecture, CI/CD tools, and Agile methodologies. Well-equipped to
+          contribute to any development team.
         </p>
         <form onSubmit={clickHandle}>
           <input id="lati" name="latitude"></input>
