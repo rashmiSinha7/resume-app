@@ -35,7 +35,7 @@ function Header() {
             </div> 
           </div>
       </div>
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <div className="box">
           <div></div>
           <div></div>
@@ -50,7 +50,7 @@ function Header() {
           <div></div>
           <div></div>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 }

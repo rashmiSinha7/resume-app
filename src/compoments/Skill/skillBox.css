@@ -96,17 +96,12 @@
   .skillBox {
       height: 270px;
   }
+
+  .skillBox .skillImage img{
+    width: 10%;
+  }
   
 }
-
-
-
-
-
-
-
-
-
 
 
 
