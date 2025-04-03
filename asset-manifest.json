@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume-app/static/css/main.04c1c0e7.css",
-    "main.js": "/resume-app/static/js/main.64db4d19.js",
+    "main.css": "/resume-app/static/css/main.4e7b426b.css",
+    "main.js": "/resume-app/static/js/main.e5841566.js",
     "static/js/787.ec610b0e.chunk.js": "/resume-app/static/js/787.ec610b0e.chunk.js",
     "static/media/profile_image.jpg": "/resume-app/static/media/profile_image.81e6ee06fc6d024c2494.jpg",
     "static/media/weather-app.png": "/resume-app/static/media/weather-app.2f05372f5ffe8e993e77.png",
@@ -17,12 +17,12 @@
     "static/media/javascript.png": "/resume-app/static/media/javascript.78206ba65e01c7d57080.png",
     "static/media/linkedin.png": "/resume-app/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/resume-app/index.html",
-    "main.04c1c0e7.css.map": "/resume-app/static/css/main.04c1c0e7.css.map",
-    "main.64db4d19.js.map": "/resume-app/static/js/main.64db4d19.js.map",
+    "main.4e7b426b.css.map": "/resume-app/static/css/main.4e7b426b.css.map",
+    "main.e5841566.js.map": "/resume-app/static/js/main.e5841566.js.map",
     "787.ec610b0e.chunk.js.map": "/resume-app/static/js/787.ec610b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04c1c0e7.css",
-    "static/js/main.64db4d19.js"
+    "static/css/main.4e7b426b.css",
+    "static/js/main.e5841566.js"
   ]
 }
