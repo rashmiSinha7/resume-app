@@ -61,10 +61,10 @@ function Contact() {
           or LinkedIn: <strong>linkedin.com/in/rashmisinha7/ </strong> 
         </p>
         <br></br>
-        <a href="https://www.instagram.com/rashmi_sinha7/" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank">
           <img src={instaImg} alt="my insta handle"></img>
         </a>
-        <a href="https://www.facebook.com/raarshmee" target="_blank">
+        <a href="https://www.facebook.com/" target="_blank">
           <img src={fbImg} alt="my fb handle"></img>
         </a>
         <a href="https://www.linkedin.com/in/rashmisinha7/" target="_blank">
